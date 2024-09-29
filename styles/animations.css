@@ -48,7 +48,7 @@
     transition-delay: 0.05s;
   }
   
-  .like-icon.is-liked .core, .like-icon.is-liked .main-body, .like-icon.is-liked .contour {
+  .like-icon.is-liked .heart {
     fill: var(--heart-color);
   }
   
