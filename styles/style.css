@@ -343,5 +343,9 @@
   .save-button__svg {
     margin-bottom: 8px;
   }
+
+  .section {
+    inline-size: 100%;
+  }
 }
 
