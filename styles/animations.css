@@ -21,15 +21,16 @@
   
   .main-body, .core {
     fill: transparent;
+    transition-timing-function: ease-in-out;
     transition-property: fill;
     transition-duration: 0.3s;
   }
   
-  .core {
+    .core {
     transition-delay: 0.03s;
-  }
-  
-  .like-icon:hover .core {
+}
+
+.like-icon:hover .core {
     fill: var(--accent-color);
   }
   
