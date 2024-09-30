@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
     <link rel="icon" href="./svg/favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="./svg/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.png">
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
@@ -47,16 +47,16 @@
           </ul>
         </nav>
     </header>
-    <main>
+    <main class="content">
       <section class="content__card section">
         <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture">
+          <picture class="card__picture">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -67,7 +67,7 @@
             Место для ваших воспоминаний о начале обучения.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -86,10 +86,10 @@
           1 спринт: Я — чистый лист
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture grayscale">
+          <picture class="card__picture grayscale">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -99,7 +99,7 @@
             Место для ваших воспоминаний о начале первого спринта.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -118,10 +118,10 @@
           1 спринт: А если не получится?
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture saturate">
+          <picture class="card__picture saturate">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -131,7 +131,7 @@
             Место для ваших воспоминаний об окончании первого спринта.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -150,10 +150,10 @@
           2 спринт: Погоня за идеалом
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture hue-rotate">
+          <picture class="card__picture hue-rotate">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -163,7 +163,7 @@
             Место для ваших воспоминаний о начале второго спринта.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -182,10 +182,10 @@
           2 спринт: О тех, кто рядом
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture invert">
+          <picture class="card__picture invert">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -195,7 +195,7 @@
             Место для ваших воспоминаний об окончании второго спринта.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -214,10 +214,10 @@
           3 спринт: Обходные стратегии
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture sepia">
+          <picture class="card__picture sepia">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -228,7 +228,7 @@
             Место для ваших воспоминаний о начале третьего спринта.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -247,10 +247,10 @@
           3 спринт: Когда опускаются руки
         </h2>
         <div class="picture-container">
-          <picture loading="lazy" class="card__picture blur">
+          <picture class="card__picture blur">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -261,7 +261,7 @@
             Место для ваших воспоминаний об окончании третьего спринта.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -280,10 +280,10 @@
           «Сейчас я здесь»
         </h2>
         <div class="picture-container hue-rotate_sepia_saturate">
-          <picture loading="lazy" class="card__picture">
+          <picture class="card__picture">
             <source srcset="./images/post_1.avif" type="image/avif">
             <source srcset="./images/post_1.webp" type="image/webp">
-            <img src="./images/post_1.png" alt="pixel-art фургон">
+            <img loading="lazy" src="./images/post_1.png" alt="pixel-art фургон">
           </picture>
         </div>
         <div class="card__text">
@@ -294,7 +294,7 @@
             Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
           </p>
           <div class="card__buttons">
-            <button type="button" class="card__icon-button button" aria-label="like">
+            <button type="button" class="card__icon-button button" aria-label="Нравится">
               <svg aria-hidden="true" width="39" height="36" viewBox="0 0 39 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                 <path class="contour heart" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="inherit"/>
                 <path class="main-body heart" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="#FF0000"/>
@@ -308,7 +308,6 @@
           </div>
         </div>
       </section>
-    </main>
       <button type="button" class="save-button translate-button button"  onclick="window['dialog'].showModal();" aria-controls="dialog">
         <span class="button__text">
           <svg
@@ -322,6 +321,7 @@
             Сохранить на память
           </span>
         </button>
+    </main>
     <dialog id="dialog" class="dialog">
       <form action="#" method="dialog" class="dialog__form">
         <div class="dialog__content">
